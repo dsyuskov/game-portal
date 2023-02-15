@@ -1,0 +1,26 @@
+@import './colors.scss';
+@import './App.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  max-height: 100vh;
+  
+  background-image: url('../assets/bg.png');
+
+  background-size: cover;
+  background-position: center center;
+  // background: url('../assets/bg.png'),               linear-gradient(90deg, rgba(0, 0, 0, 0.4) 16.67%, rgba(0, 0, 0, 0) 100%);
+
+  // background-size: auto, auto, cover; /* Меняем масштаб */
+
+  
+  // background-image: url('../assets/bg.png');
+  // background: linear-gradient(#eb01a5, #d13531), url('../assets/bg.png');
+  // background-image: linear-gradient(#eb01a5, #d13531);
+}

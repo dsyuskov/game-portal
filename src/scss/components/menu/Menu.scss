@@ -1,0 +1,52 @@
+.menu-container {
+  display: flex;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 16.67%, rgba(0, 0, 0, 0) 100%);
+  backdrop-filter: blur(10px);
+}
+
+.menu {
+  box-sizing: border-box;
+  min-width: 580px;
+  height: 100vh;
+  padding-top: 60px;
+
+  &__logo {
+    width: 400px;
+    height: 106px;
+    margin-left: 70px;
+  }
+
+  &__list {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+
+    margin-top: 12px;
+    list-style: none;
+    color: $menu_color;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    height: 85px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding-left: 70px;
+
+    &:hover {
+      background-color: $menu_hover_bg;
+      background-image: url('../../../assets/arrow-right.svg');
+      background-repeat: no-repeat;
+      background-position: center right 20px;
+    }
+  }
+
+  &__content {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+}
