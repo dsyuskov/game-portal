@@ -1,0 +1,17 @@
+.panel {
+  position: relative;
+  padding: 20px;
+  box-shadow: 0px 10px 10px rgba(179, 179, 179, 0.5), 0px 15px 0px #1e1e1e,
+    0px 20px 20px 5px #000000, inset 0px -0.5px 3px -1px rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  background: url('../../assets/bolt.svg') no-repeat 7px 7px,
+    url('../../assets/bolt.svg') no-repeat right 7px top 7px,
+    url('../../assets/bolt.svg') no-repeat right 7px bottom 7px,
+    url('../../assets/bolt.svg') no-repeat left 7px bottom 7px,
+    linear-gradient(237.59deg, #676767 34%, #646464 69.96%);
+  overflow: hidden;
+
+  @media (min-width: 1981px) {
+    padding: 30px;
+  }
+}
